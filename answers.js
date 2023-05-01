@@ -60,7 +60,19 @@ for (let i = 1; i <= 100; i++) {
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
+// Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+plantee[2]++;
 
+// Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+wolfy[3] = "Gotham City";
+
+// Give D'Art a second hometown by adding "Hawkins"
+dart.push("Hawkins");
+
+// Porgee decides that Wolfy can't be named "Wolfy" anymore. 
+// Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
+wolfy.shift();
+wolfy.unshift("Gameboy");
 
 ////////////////////////////////
 // Yell at the Ninja Turtles

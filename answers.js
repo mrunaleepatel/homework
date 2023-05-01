@@ -135,17 +135,21 @@ const whereIsWaldo = [
   
   whereIsWaldo.splice(1, 1); // remove "Eggbert"
   whereIsWaldo[2][2] = "No One";  // change "Neff" to "No One"
-  console.log(whereIsWaldo[3][1][1]); //  access and console.log "Waldo" // output: "Waldo"
+  console.log(whereIsWaldo[3][1][1]); //  access and console.log "Waldo" output: "Waldo"
   
-
-
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-
+for (let i = 0; i < 20; i++) {
+    console.log("Love me, pet me! HSSSSSS!");
+  }
+  
 
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
-
+nums.sort((a, b) => a - b); 
+const medianIndex = Math.floor(nums.length / 2);
+const medianNumber = nums[medianIndex];
+console.log(medianNumber); // Output- 15 
 

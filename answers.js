@@ -122,9 +122,21 @@ const lastHalf = favMovies.slice(middleIndex);
 console.log(lastHalf); 
 
 console.log(favMovies.indexOf("Fast and Furious")); 
+
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [
+    ["Timmy", "Frank"], 
+    "Eggbert",
+    ["Lucinda", "Jacc", "Neff", "Snoop"],
+    ["Petunia", ["Baked Goods", "Waldo"]]
+  ];
+  
+  whereIsWaldo.splice(1, 1); // remove "Eggbert"
+  whereIsWaldo[2][2] = "No One";  // change "Neff" to "No One"
+  console.log(whereIsWaldo[3][1][1]); //  access and console.log "Waldo" // output: "Waldo"
+  
 
 
 ////////////////////////////////

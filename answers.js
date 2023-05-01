@@ -60,13 +60,17 @@ for (let i = 1; i <= 100; i++) {
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
+
 // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+const plantee = ["Plantee", "plant", 5000, "Mordor"];
 plantee[2]++;
 
 // Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 wolfy[3] = "Gotham City";
 
 // Give D'Art a second hometown by adding "Hawkins"
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 dart.push("Hawkins");
 
 // Porgee decides that Wolfy can't be named "Wolfy" anymore. 
@@ -77,6 +81,11 @@ wolfy.unshift("Gameboy");
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michelangelo"];
+
+for (const turtle of ninjaTurtles) {
+  console.log(turtle.toUpperCase());
+}
 
 
 ////////////////////////////////
